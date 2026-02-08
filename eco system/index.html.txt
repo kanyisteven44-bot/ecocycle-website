@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EcoCycle Kenya</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to bottom right, #ecfdf5, #d1fae5);
+      color: #1f2937;
+    }
+
+    header {
+      text-align: center;
+      padding: 80px 20px 60px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #047857;
+      margin-bottom: 20px;
+    }
+
+    header p {
+      max-width: 600px;
+      margin: auto;
+      font-size: 1.1rem;
+    }
+
+    .buttons {
+      margin-top: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      margin: 10px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .primary {
+      background: #059669;
+      color: white;
+    }
+
+    .primary:hover {
+      background: #047857;
+    }
+
+    .outline {
+      border: 2px solid #059669;
+      color: #059669;
+    }
+
+    .outline:hover {
+      background: #059669;
+      color: white;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 40px 20px 80px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 18px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    }
+
+    .card h3 {
+      margin: 15px 0 10px;
+      color: #047857;
+    }
+
+    .cta {
+      background: #047857;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .cta h2 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background: #022c22;
+      color: #d1fae5;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <header>
+    <h1>EcoCycle Kenya 🌍</h1>
+    <p>
+      A platform promoting sustainable living, eco‑friendly products, green events,
+      and community climate action across Kenya.
+    </p>
+
+    <div class="buttons">
+      <a href="#" class="btn primary">Explore Marketplace</a>
+      <a href="#" class="btn outline">Join Community</a>
+    </div>
+  </header>
+
+  <!-- FEATURES -->
+  <section class="features">
+
+    <div class="card">
+      <h3>🌿 Eco Blog</h3>
+      <p>Read eco‑tips, sustainability guides, and inspiring green stories.</p>
+    </div>
+
+    <div class="card">
+      <h3>🛍️ Marketplace</h3>
+      <p>Shop eco‑friendly products from trusted Kenyan businesses.</p>
+    </div>
+
+    <div class="card">
+      <h3>📆 Green Events</h3>
+      <p>Find clean‑ups, tree planting, climate talks, and workshops near you.</p>
+    </div>
+
+    <div class="card">
+      <h3>💬 Community Forum</h3>
+      <p>Connect, ask questions, and share sustainability ideas.</p>
+    </div>
+
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <h2>Be Part of Kenya’s Green Future 🌱</h2>
+    <p>Join EcoCycle today to learn, shop sustainably, atte
